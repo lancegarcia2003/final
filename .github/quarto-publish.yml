@@ -1,0 +1,23 @@
+name: Publish Quarto Documents
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup Quarto
+      run: |
+        wget -qO- "https://quarto.org/download/latest/quarto-linux-amd64.deb" > quarto.deb
+        sudo dpkg -i quarto.deb
+    - name: Render Documents
+      run: quarto render --to html
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./_site
