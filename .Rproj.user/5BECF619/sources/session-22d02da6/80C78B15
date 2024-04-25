@@ -3,7 +3,7 @@
     "path": "~/1 Spring 2024/MATH 378/Final Project/about.qmd",
     "project_path": "about.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "2384763601",
     "contents": "",
     "dirty": false,
     "created": 1710019974139.0,
@@ -16,14 +16,16 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "rmdVisualModeLocation": "2:0"
+        "rmdVisualModeLocation": "41:0",
+        "cursorPosition": "6,0",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1710019558,
+    "lastKnownWriteTime": 1714079517,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1710019558,
+    "last_content_update": 1714079517937,
     "read_only": false,
     "read_only_alternatives": []
 }

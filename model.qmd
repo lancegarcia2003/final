@@ -14,6 +14,14 @@ from sklearn import preprocessing
 
 ## Get Data
 
+```{r}
+library(reticulate)
+use_virtualenv("C:\\Users\\C25Lance.Garcia\\OneDrive - afacademy.af.edu\\Documents\\1 Spring 2024\\MATH 378\\Final Project\\venv"
+, required = TRUE)
+```
+
+
+
 ```{python}
 import duckdb
 con = duckdb.connect('my-db.duckdb')
